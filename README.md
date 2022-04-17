@@ -1,1 +1,1 @@
-# covid-19-v2
+# covid-19-tracker
