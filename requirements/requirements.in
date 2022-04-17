@@ -1,7 +1,11 @@
+argon2-cffi >= 21.3.0, < 21.4
 django >= 4.0.4, < 4.1
-hiredis >= 2.0.0, < 2.1  # Ubuntu: sudo apt-get install -y libhiredis-dev
 pillow >= 9.1.0, < 9.2
 python-slugify >= 6.1.1, < 6.2
-redis >= 4.2.2, < 4.3
 typed-settings >= 1.0.1, < 1.1
 uvicorn[standard] >= 0.17.6, < 0.18
+
+# redis
+django-redis >= 5.2.0, < 5.3
+hiredis >= 2.0.0, < 2.1  # Ubuntu: sudo apt-get install -y libhiredis-dev
+redis >= 4.2.2, < 4.3  # Ubuntu: sudo apt-get install -y redis-server
