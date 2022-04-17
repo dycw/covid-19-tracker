@@ -1,3 +1,6 @@
+ci:
+  autoupdate_schedule: weekly
+
 default_stages: [commit]
 
 repos:
@@ -111,7 +114,6 @@ repos:
     rev: 0.4.1
     hooks:
       - id: bump-version
-        args: [--setup-cfg]
   - repo: https://github.com/jazzband/pip-tools
     rev: 6.6.0
     hooks:

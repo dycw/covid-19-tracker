@@ -1,3 +1,4 @@
 django >= 4.0.4, < 4.1
 pillow >= 9.1.0, < 9.2
+python-slugify >= 6.1.1, < 6.2
 typed-settings >= 1.0.1, < 1.1
