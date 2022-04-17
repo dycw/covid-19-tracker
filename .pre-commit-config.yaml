@@ -116,7 +116,7 @@ repos:
     rev: 6.6.0
     hooks:
       - id: pip-compile
-        name: pip-compile requirements.txt
+        name: pip-compile requirements.in
         args:
           [
             --allow-unsafe,
