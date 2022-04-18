@@ -9,9 +9,14 @@ django-model-utils >= 4.2.0, < 4.3
 # django REST framework
 djangorestframework >= 3.13.1, < 3.14
 django-cors-headers >= 3.11.0, < 3.12
-
-# DRF-spectacular
 drf-spectacular >= 0.22.0, < 0.23
+
+# postgres
+psycopg2-binary >= 2.9.3, < 2.10
+
+# production
+collectfast >= 2.2.0, < 2.3
+gunicorn >= 20.1.0, < 20.2
 
 # redis
 django-redis >= 5.2.0, < 5.3
