@@ -1,0 +1,13 @@
+{
+  "include": ["covid_19_tracker"],
+  "venvPath": ".direnv",
+  "pythonVersion": "3.10",
+  "pythonPlatform": "Linux",
+  "executionEnvironments": [{ "root": "covid_19_tracker" }],
+  "typeCheckingMode": "strict",
+  "reportMissingTypeStubs": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownVariableType": false,
+  "reportUntypedBaseClass": false
+}
